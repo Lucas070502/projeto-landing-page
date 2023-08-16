@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+#logo{
+    width: 125px;
+    height: 62px;
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#titulo-menu-superior{
+    margin-left: 172px;
+    margin-top: 50px;
+}
+
+#texto-menu-superior{
+    margin-left: 172px;
+    margin-top: 35px;
+    padding-bottom: 150px;
+}
+
+#menu-superior{
+    background-image: url(./Imagens/fundo.svg);
+    color: #FFFFFF;
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto
+}
+
+.icone{
+    padding-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;  
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#secao-video{
+    margin: 50px 0px 50px 100px;
+    color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto
+}
+
+#titulo-video{
+    color: #247BA0;  
+}
+
+#texto-video{
+    color: #383838;
+}
+
+#analise-publico{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-analise-publico{
+    text-align: center;
+    color: #EAECE5;
+}
+
+#cards-depoimento{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px; 
+}
+
+.card{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+.seta{
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#depoimento-bruna{
+    display: none;
+}
+
+#formulario{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#titulo-formulario{
+    color: #383838;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+input{
+    background: #EAECE5;
+    width: 413px;
+    height: 40px;
+    border: 0px;
+    padding-left: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+button{
+    background: #247BA0;
+    color: #FFFFFF;
+    font-weight: bolder;
+    width: 335px;
+    height: 53px;
+    border: 0px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #3092bd;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 5px 10px #383838;
+}
